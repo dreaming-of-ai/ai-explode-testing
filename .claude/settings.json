@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--codegen", "typescript"]
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright *)",
+      "Bash(curl *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
