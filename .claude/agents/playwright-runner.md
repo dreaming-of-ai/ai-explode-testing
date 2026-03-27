@@ -16,8 +16,8 @@ You use the Playwright MCP server to interact with the running application.
 
 ## Prerequisites
 
-The application must be running at http://localhost:8080 before you start.
-Verify with: `curl -s -o /dev/null -w "%{http_code}" http://localhost:8080`
+The application must be running at http://localhost:5173 before you start.
+Verify with: `curl -s -o /dev/null -w "%{http_code}" http://localhost:5173`
 
 ## Workflow
 

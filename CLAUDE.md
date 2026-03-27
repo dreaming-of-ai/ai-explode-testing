@@ -3,14 +3,15 @@
 BDD test suite for AI Explode. Two specialized agents handle the full pipeline.
 
 ## App target
-http://localhost:8080
+http://localhost:5173/
 
 ## Agent routing
 - Writing or updating Gherkin scenarios → @gherkin-writer
 - Running tests or validating the app  → @playwright-runner
 
 ## Specs (read-only)
-Game rules live in `specs/`. Always read `specs/game-overview.md` first.
+Game rules lives in `game-overview.md`. Always read this first.
+Specs for indiovidual feature implementations live in `specs/`.
 
 ## Pipeline
 specs/ → [gherkin-writer] → features/*.feature → [playwright-runner] → tests/*.spec.ts

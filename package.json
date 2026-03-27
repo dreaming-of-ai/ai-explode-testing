@@ -1,0 +1,15 @@
+{
+  "name": "ai-explode-tests",
+  "version": "1.0.0",
+  "description": "BDD test suite for AI Explode",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:slow": "SLOW_MO=1000 playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0"
+  }
+}

@@ -16,8 +16,8 @@ Your task is to transform feature specifications into clean, executable Gherkin 
 
 ## Workflow
 
-1. Read `specs/game-overview.md` to understand the game domain and terminology
-2. Read the relevant section or spec file provided by the user
+1. Read `game-overview.md` to understand the game domain and terminology
+2. Read the relevant section or spec file (located under `specs/`) provided by the user
 3. Identify testable behaviors: happy paths, edge cases, error cases, boundary conditions
 4. Write `.feature` files into `features/`
 
