@@ -1,3 +1,8 @@
 /.idea/
 /papers/specs/
 /papers/game-overview.md
+/.claude/worktrees/
+/test-results/
+/reports/
+/node_modules/
+/papers/
