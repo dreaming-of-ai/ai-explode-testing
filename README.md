@@ -73,10 +73,12 @@ Feature: Game Setup and Basic Turns
 Another more complex example:
 
 ---
+
 Use the `gherkin-writer` to write a new testing feature. Create a game with three players. The test should eliminate one player and check that the corresponding popup shows up that a player has been eliminated and that    
 only two players remain in the game and can make moves. This also checks that a single explosion is working. Therefore, Player 1 plays only in the upper left corner. Player 2 only plays on the fields around that corner, and  
 player 3 plays away on the other side of the board. This should resul in Player 1 bringing its cornerstone to an explosion and taking over all of Player’s two fields who is thus eliminated from the game. Afterward each    
 of the two remaining players should still make one move. Check proper scores of the remaining players.
+
 ---
 
 ```gherkin
